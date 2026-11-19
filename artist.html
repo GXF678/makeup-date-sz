@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>妆娘详情 · MAKEUP DATE</title>
+<meta name="description" content="妆娘简介、擅长风格、作品集、服务价格、档期与预约入口。">
+<meta name="theme-color" content="#c77991">
+<meta property="og:title" content="妆娘详情 · MAKEUP DATE">
+<meta property="og:description" content="妆娘简介、擅长风格、作品集、服务价格、档期与预约入口。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MAKEUP DATE">
+<meta property="og:image" content="assets/img/og-image.png">
+<meta property="og:image:alt" content="MAKEUP DATE — 深圳妆造预约平台">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/img/og-image.png">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="artist" class="">
+<a class="sr-only" href="#main">跳到主要内容</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-logo" style="width:38px;height:38px"><svg class="brand-logo__svg" viewBox="0 0 96 96" width="38" height="38" role="img" aria-label="MAKEUP DATE 标志"><defs><linearGradient id="mdg-m" x1="0.12" y1="0" x2="0.88" y2="1"><stop offset="0" stop-color="#D390A4"/><stop offset="1" stop-color="#AC6380"/></linearGradient></defs><rect width="96" height="96" rx="18.8" fill="url(#mdg-m)"/><g fill="#FFFDFB"><path d="M 0 0 C -12.01 -12.51 -10.13 -26.50 0 -36.80 C 10.13 -26.50 12.01 -12.51 0 0 Z" transform="translate(48 48) rotate(-104)"/><path d="M 0 0 C -9.73 -11.26 -8.20 -23.85 0 -33.12 C 8.20 -23.85 9.73 -11.26 0 0 Z" transform="translate(48 48) rotate(-32)"/><path d="M 0 0 C -12.43 -12.26 -10.48 -25.97 0 -36.06 C 10.48 -25.97 12.43 -12.26 0 0 Z" transform="translate(48 48) rotate(40)"/><path d="M 0 0 C -9.91 -11.01 -8.36 -23.32 0 -32.38 C 8.36 -23.32 9.91 -11.01 0 0 Z" transform="translate(48 48) rotate(112)"/><path d="M 0 0 C -11.48 -11.89 -9.68 -25.17 0 -34.96 C 9.68 -25.17 11.48 -11.89 0 0 Z" transform="translate(48 48) rotate(184)"/></g></svg></span>
+        <span class="brand-text">
+          <span class="brand-name">MAKEUP DATE</span>
+          <span class="brand-sub">深圳 · 妆造预约</span>
+        </span>
+      </a>
+      
+      <nav class="nav" aria-label="主导航">
+        <a class="nav-link" data-nav="home" href="index.html">首页</a>
+        <a class="nav-link is-active" data-nav="artists" href="artists.html">找妆娘</a>
+        <div class="nav-item">
+          <a class="nav-link" data-nav="styles locations portfolio" href="styles.html">风格与地区
+            <svg class="caret" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M1.5 2.5L6 6.5l4.5-4"/></svg>
+          </a>
+          <div class="nav-drop">
+            <a href="styles.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5l1.9 4.9 4.9 1.9-4.9 1.9L12 17.1l-1.9-4.9L5.2 10.3l4.9-1.9z"/><path d="M19 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>风格分类</a>
+            <a href="locations.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s6.5-5.6 6.5-10.4A6.5 6.5 0 0 0 5.5 10.6C5.5 15.4 12 21 12 21z"/><circle cx="12" cy="10.4" r="2.4"/></svg>地区推荐</a>
+            <a href="portfolio.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8.5h3.2l1.4-2h6.8l1.4 2H20v10.5H4z"/><circle cx="12" cy="13.6" r="3.4"/></svg>作品集</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link" data-nav="community reviews guide" href="community.html">社区
+            <svg class="caret" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M1.5 2.5L6 6.5l4.5-4"/></svg>
+          </a>
+          <div class="nav-drop">
+            <a href="community.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 12c0 4.1-3.8 7.4-8.5 7.4a10 10 0 0 1-2.6-.3L4 21l1.4-4.2A7 7 0 0 1 3.5 12c0-4.1 3.8-7.4 8.5-7.4s8.5 3.3 8.5 7.4z"/></svg>妆造社区</a>
+            <a href="reviews.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.4 5.9.9-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.9l5.9-.9z"/></svg>用户评价</a>
+            <a href="guide.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.2l7 2.6v5.4c0 4.4-3 7.9-7 9.6-4-1.7-7-5.2-7-9.6V5.8z"/><path d="M8.8 11.9l2.2 2.2 4.2-4.2"/></svg>新手指南</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link" data-nav="join dashboard" href="join.html">妆娘入驻
+            <svg class="caret" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M1.5 2.5L6 6.5l4.5-4"/></svg>
+          </a>
+          <div class="nav-drop">
+            <a href="join.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8.4" r="3.7"/><path d="M4.8 20c1.2-3.5 3.9-5.3 7.2-5.3s6 1.8 7.2 5.3"/></svg>入驻申请</a>
+            <a href="dashboard.html"><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5l8.4 4.3-8.4 4.3L3.6 7.8z"/><path d="M3.6 12.2l8.4 4.3 8.4-4.3"/><path d="M3.6 16.2l8.4 4.3 8.4-4.3"/></svg>妆娘工作台</a>
+          </div>
+        </div>
+        <a class="nav-link" data-nav="about" href="about.html">关于</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="icon-btn" href="favorites.html" aria-label="收藏夹">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 5.6a5.2 5.2 0 0 0-7.4 0L12 6.8l-1.2-1.2a5.2 5.2 0 1 0-7.4 7.4l1.2 1.2L12 21l7.4-6.8 1.2-1.2a5.2 5.2 0 0 0 0-7.4z"/></svg><span class="badge-count" data-fav-count hidden>0</span>
+        </a>
+        <a class="icon-btn" href="my-bookings.html" aria-label="我的预约"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="15" rx="3"/><path d="M8 3.5v4M16 3.5v4M3.5 10.5h17"/></svg></a>
+        <a class="btn btn-primary btn-sm" href="booking.html">立即预约</a>
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-label="打开菜单" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <div class="mobile-nav__scrim" data-close-nav></div>
+    <div class="mobile-nav__panel" role="dialog" aria-label="站点菜单">
+      <div class="mobile-nav__head">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" style="width:34px;height:34px"><svg class="brand-logo__svg" viewBox="0 0 96 96" width="34" height="34" role="img" aria-label="MAKEUP DATE 标志"><defs><linearGradient id="mdg-h" x1="0.12" y1="0" x2="0.88" y2="1"><stop offset="0" stop-color="#D390A4"/><stop offset="1" stop-color="#AC6380"/></linearGradient></defs><rect width="96" height="96" rx="18.8" fill="url(#mdg-h)"/><g fill="#FFFDFB"><path d="M 0 0 C -12.01 -12.51 -10.13 -26.50 0 -36.80 C 10.13 -26.50 12.01 -12.51 0 0 Z" transform="translate(48 48) rotate(-104)"/><path d="M 0 0 C -9.73 -11.26 -8.20 -23.85 0 -33.12 C 8.20 -23.85 9.73 -11.26 0 0 Z" transform="translate(48 48) rotate(-32)"/><path d="M 0 0 C -12.43 -12.26 -10.48 -25.97 0 -36.06 C 10.48 -25.97 12.43 -12.26 0 0 Z" transform="translate(48 48) rotate(40)"/><path d="M 0 0 C -9.91 -11.01 -8.36 -23.32 0 -32.38 C 8.36 -23.32 9.91 -11.01 0 0 Z" transform="translate(48 48) rotate(112)"/><path d="M 0 0 C -11.48 -11.89 -9.68 -25.17 0 -34.96 C 9.68 -25.17 11.48 -11.89 0 0 Z" transform="translate(48 48) rotate(184)"/></g></svg></span>
+          <span class="brand-text"><span class="brand-name">MAKEUP DATE</span></span>
+        </a>
+        <button class="icon-btn" data-close-nav aria-label="关闭菜单">✕</button>
+      </div>
+      <h4>发现</h4><div class="mn-links"><a href="index.html">首页</a><a href="artists.html">找妆娘</a><a href="styles.html">风格分类</a><a href="locations.html">地区推荐</a><a href="portfolio.html">作品集</a></div><h4>预约</h4><div class="mn-links"><a href="services.html">服务价格</a><a href="calendar.html">档期日历</a><a href="booking.html">预约</a><a href="my-bookings.html">我的预约</a><a href="favorites.html">收藏夹</a></div><h4>了解与加入</h4><div class="mn-links"><a href="community.html">妆造社区</a><a href="reviews.html">用户评价</a><a href="guide.html">新手指南</a><a href="join.html">妆娘入驻</a><a href="dashboard.html">妆娘工作台</a><a href="about.html">关于我们</a></div>
+      <a class="btn btn-primary btn-block mt-3" href="booking.html">立即预约</a>
+      <p class="tiny mt-2">深圳本地妆造预约平台 · Shenzhen makeup artist booking</p>
+    </div>
+  </div>
+  <main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <div class="crumbs"><a href="index.html">首页</a><span class="sep">/</span><a href="artists.html">找妆娘</a><span class="sep">/</span><span><span id="apCrumb">林小满</span></span></div>
+      <div class="page-head--split">
+        <div>
+          <h1 class="h1--artist"><span id="apName">Luna Lin</span>
+            <span id="apCn" class="h1-sub">林小满</span></h1>
+          <p class="lead" id="apHeadline">把水光底妆调到「上镜但不厚重」</p>
+        </div>
+        <div class="page-head__actions">
+          <button class="btn btn-ghost" id="apFav" data-fav="a1">收藏</button>
+          <a class="btn btn-ghost" data-book-artist href="calendar.html?artist=a1">查看档期</a>
+          <a class="btn btn-primary" data-book-artist href="booking.html?artist=a1">立即预约</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="profile">
+        <div>
+          <div class="profile-media">
+            <img id="apImg" src="assets/img/artist-1.jpg" alt="Luna Lin" width="800" height="1086">
+          </div>
+
+          <div class="tabs" role="tablist">
+            <button class="is-active" data-tab="tabAbout" role="tab">简介</button>
+            <button data-tab="tabWork" role="tab">作品</button>
+            <button data-tab="tabPrice" role="tab">价格</button>
+            <button data-tab="tabReviews" role="tab">评价</button>
+          </div>
+
+          <div class="tab-panel is-active" id="tabAbout">
+            <p class="muted" id="apBio"></p>
+            <div class="fact-grid">
+              <div><span>所在片区</span><b id="apArea">福田</b></div>
+              <div><span>服务方式</span><b id="apService">工作室 · 上门 · 跟妆</b></div>
+              <div><span>回复时间</span><b id="apResponse">通常 1 小时内回复</b></div>
+              <div><span>语言</span><b id="apLangs">普通话 / 粤语</b></div>
+              <div><span>入行年份</span><b id="apSince">2021 年</b></div>
+              <div><span>擅长风格</span><b id="apStyles"></b></div>
+            </div>
+            <h3 class="sub-title">服务流程</h3>
+            <ul class="check-list check-list--muted">
+              <li>预约前先看作品墙，确认妆容方向与预算。</li>
+              <li>提交预约后 24 小时内会收到确认，并附上妆前注意事项。</li>
+              <li>当天素颜到场，妆造完成后可现场微调一次。</li>
+            </ul>
+          </div>
+
+          <div class="tab-panel" id="tabWork">
+            <p class="tiny">点击图片可放大查看妆容细节</p>
+            <div class="masonry" id="apGallery" style="columns:2"></div>
+          </div>
+
+          <div class="tab-panel" id="tabPrice">
+            <div class="table-wrap">
+              <table class="table">
+                <thead><tr><th>套餐</th><th>时长</th><th>价格</th><th></th></tr></thead>
+                <tbody><tr><td><b>基础妆</b><br><small class="tiny">干净、耐看、可延续一整天的底妆与眉眼唇。</small></td>
+        <td>60 分钟</td><td class="num">¥328</td>
+        <td><a class="link-arrow" href="booking.html?artist=a1&pkg=basic">选择</a></td></tr><tr><td><b>主题妆</b><br><small class="tiny">按风格（韩系 / 日系 / 泰妆 / 古风）定制妆造。</small></td>
+        <td>90 分钟</td><td class="num">¥568</td>
+        <td><a class="link-arrow" href="booking.html?artist=a1&pkg=theme">选择</a></td></tr><tr><td><b>Cosplay / 古风全妆造</b><br><small class="tiny">角色还原或古装整体造型，含假发与头饰。</small></td>
+        <td>120 分钟</td><td class="num">¥888</td>
+        <td><a class="link-arrow" href="booking.html?artist=a1&pkg=cosplay">选择</a></td></tr></tbody>
+              </table>
+            </div>
+            <p class="tiny mt-2">加购：上门 +¥80、跟妆 +¥120/小时、假发造型 +¥100。取消政策见 <a href="guide.html">新手指南</a>。</p>
+          </div>
+
+          <div class="tab-panel" id="tabReviews">
+            <div id="apReviews"></div>
+            <a class="link-arrow mt-3" href="reviews.html">看全部评价</a>
+          </div>
+        </div>
+
+        <aside class="profile-side">
+          <div class="booking-card">
+            <div class="booking-card__top">
+              <div class="price price--lg" id="apPrice">¥468 <small>起 / 次</small></div>
+              <div class="rating" id="apRating"></div>
+            </div>
+            <p class="tiny">价格按套餐与加购计算，预约页会实时显示总额。</p>
+            <div class="bc-row"><span>所在片区</span><b id="apArea2">福田</b></div>
+            <div class="bc-row"><span>最快可约</span><b>本周四 14:00</b></div>
+            <div class="bc-row"><span>回复时间</span><b>1 小时内</b></div>
+            <a class="btn btn-primary btn-block mt-3" data-book-artist href="booking.html?artist=a1">选择套餐并预约</a>
+            <a class="btn btn-ghost btn-block mt-2" data-book-artist href="calendar.html?artist=a1">先看档期</a>
+          </div>
+
+          <div class="card mt-3">
+            <h4 class="card-label">信任与保障</h4>
+            <ul class="check-list check-list--compact">
+              <li>身份与作品原创性审核</li>
+              <li>完成订单后才可以评价</li>
+              <li>平台协助处理改期与退款</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white">
+    <div class="wrap">
+      
+      <div class="section-head ">
+        <span class="eyebrow">猜你喜欢</span>
+        <h2>同风格的妆娘</h2>
+        
+      </div>
+      <div class="artist-grid">
+        <article class="artist-card" data-id="a2" data-style="japanese daily" data-loc="nanshan"
+                 data-service="工作室 · 上门" data-price="498" data-rating="4.8"
+                 data-name="Karena Ye">
+          <div class="ac-media">
+            <a href="artist.html?id=a2" tabindex="-1" aria-hidden="true">
+              <img src="assets/img/artist-2.jpg" alt="叶嘉琳 · 日系妆娘"
+                   loading="lazy" width="800" height="1086">
+            </a>
+            
+            <button class="ac-fav" data-fav="a2" aria-pressed="false" aria-label="收藏 叶嘉琳"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 5.6a5.2 5.2 0 0 0-7.4 0L12 6.8l-1.2-1.2a5.2 5.2 0 1 0-7.4 7.4l1.2 1.2L12 21l7.4-6.8 1.2-1.2a5.2 5.2 0 0 0 0-7.4z"/></svg></button>
+          </div>
+          <div class="ac-body">
+            <h3 class="ac-name"><a href="artist.html?id=a2">叶嘉琳 <em>Karena Ye</em></a></h3>
+            <div class="ac-meta">
+              <span><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s6.5-5.6 6.5-10.4A6.5 6.5 0 0 0 5.5 10.6C5.5 15.4 12 21 12 21z"/><circle cx="12" cy="10.4" r="2.4"/></svg>南山</span>
+              <span><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.4 5.9.9-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.9l5.9-.9z"/></svg>4.8 <i>(54)</i></span>
+            </div>
+            <div class="ac-styles"><span>日系</span><span>日常妆</span></div>
+            <div class="ac-foot">
+              <div class="price">¥498 <small>起 / 次</small></div>
+              <a class="btn btn-ghost btn-sm" href="artist.html?id=a2">查看</a>
+            </div>
+          </div>
+        </article>
+        <article class="artist-card" data-id="a7" data-style="daily japanese" data-loc="futian"
+                 data-service="工作室 · 上门" data-price="368" data-rating="4.6"
+                 data-name="Iris Guo">
+          <div class="ac-media">
+            <a href="artist.html?id=a7" tabindex="-1" aria-hidden="true">
+              <img src="assets/img/artist-7.jpg" alt="郭雅雯 · 日常妆妆娘"
+                   loading="lazy" width="800" height="1086">
+            </a>
+            
+            <button class="ac-fav" data-fav="a7" aria-pressed="false" aria-label="收藏 郭雅雯"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 5.6a5.2 5.2 0 0 0-7.4 0L12 6.8l-1.2-1.2a5.2 5.2 0 1 0-7.4 7.4l1.2 1.2L12 21l7.4-6.8 1.2-1.2a5.2 5.2 0 0 0 0-7.4z"/></svg></button>
+          </div>
+          <div class="ac-body">
+            <h3 class="ac-name"><a href="artist.html?id=a7">郭雅雯 <em>Iris Guo</em></a></h3>
+            <div class="ac-meta">
+              <span><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s6.5-5.6 6.5-10.4A6.5 6.5 0 0 0 5.5 10.6C5.5 15.4 12 21 12 21z"/><circle cx="12" cy="10.4" r="2.4"/></svg>福田</span>
+              <span><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.4 5.9.9-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.9l5.9-.9z"/></svg>4.6 <i>(29)</i></span>
+            </div>
+            <div class="ac-styles"><span>日常妆</span><span>日系</span></div>
+            <div class="ac-foot">
+              <div class="price">¥368 <small>起 / 次</small></div>
+              <a class="btn btn-ghost btn-sm" href="artist.html?id=a7">查看</a>
+            </div>
+          </div>
+        </article>
+        <article class="artist-card" data-id="a6" data-style="daily korean" data-loc="longgang"
+                 data-service="工作室 · 校园上门" data-price="328" data-rating="4.8"
+                 data-name="Chloe He">
+          <div class="ac-media">
+            <a href="artist.html?id=a6" tabindex="-1" aria-hidden="true">
+              <img src="assets/img/artist-6.jpg" alt="何晓岚 · 日常妆妆娘"
+                   loading="lazy" width="800" height="1086">
+            </a>
+            <span class="ac-badge">性价比</span>
+            <button class="ac-fav" data-fav="a6" aria-pressed="false" aria-label="收藏 何晓岚"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 5.6a5.2 5.2 0 0 0-7.4 0L12 6.8l-1.2-1.2a5.2 5.2 0 1 0-7.4 7.4l1.2 1.2L12 21l7.4-6.8 1.2-1.2a5.2 5.2 0 0 0 0-7.4z"/></svg></button>
+          </div>
+          <div class="ac-body">
+            <h3 class="ac-name"><a href="artist.html?id=a6">何晓岚 <em>Chloe He</em></a></h3>
+            <div class="ac-meta">
+              <span><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s6.5-5.6 6.5-10.4A6.5 6.5 0 0 0 5.5 10.6C5.5 15.4 12 21 12 21z"/><circle cx="12" cy="10.4" r="2.4"/></svg>龙岗</span>
+              <span><svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.4 5.9.9-4.3 4.2 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.9l5.9-.9z"/></svg>4.8 <i>(112)</i></span>
+            </div>
+            <div class="ac-styles"><span>日常妆</span><span>韩系</span></div>
+            <div class="ac-foot">
+              <div class="price">¥328 <small>起 / 次</small></div>
+              <a class="btn btn-ghost btn-sm" href="artist.html?id=a6">查看</a>
+            </div>
+          </div>
+        </article></div>
+    </div>
+  </section>
+
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-logo" style="width:40px;height:40px"><svg class="brand-logo__svg" viewBox="0 0 96 96" width="40" height="40" role="img" aria-label="MAKEUP DATE 标志"><defs><linearGradient id="mdg-f" x1="0.12" y1="0" x2="0.88" y2="1"><stop offset="0" stop-color="#D390A4"/><stop offset="1" stop-color="#AC6380"/></linearGradient></defs><rect width="96" height="96" rx="18.8" fill="url(#mdg-f)"/><g fill="#FFFDFB"><path d="M 0 0 C -12.01 -12.51 -10.13 -26.50 0 -36.80 C 10.13 -26.50 12.01 -12.51 0 0 Z" transform="translate(48 48) rotate(-104)"/><path d="M 0 0 C -9.73 -11.26 -8.20 -23.85 0 -33.12 C 8.20 -23.85 9.73 -11.26 0 0 Z" transform="translate(48 48) rotate(-32)"/><path d="M 0 0 C -12.43 -12.26 -10.48 -25.97 0 -36.06 C 10.48 -25.97 12.43 -12.26 0 0 Z" transform="translate(48 48) rotate(40)"/><path d="M 0 0 C -9.91 -11.01 -8.36 -23.32 0 -32.38 C 8.36 -23.32 9.91 -11.01 0 0 Z" transform="translate(48 48) rotate(112)"/><path d="M 0 0 C -11.48 -11.89 -9.68 -25.17 0 -34.96 C 9.68 -25.17 11.48 -11.89 0 0 Z" transform="translate(48 48) rotate(184)"/></g></svg></span>
+            <span class="brand-text">
+              <span class="brand-name">MAKEUP DATE</span>
+              <span class="brand-sub">深圳 · 妆造预约</span>
+            </span>
+          </a>
+          <p>深圳本地妆造预约平台。把散落在社交平台上的妆娘作品、报价与档期，收进一个可以比较、可以直接预约的地方。</p>
+          <div class="footer-contact">
+            <span>+86 755 8623 4471</span>
+            <span>hello@makeupdate.cn</span>
+          </div>
+        </div>
+        <div>
+          <h4>发现</h4>
+          <div class="footer-links">
+            <a href="artists.html">找妆娘</a>
+            <a href="styles.html">风格分类</a>
+            <a href="locations.html">地区推荐</a>
+            <a href="portfolio.html">作品集</a>
+            <a href="community.html">妆造社区</a>
+          </div>
+        </div>
+        <div>
+          <h4>预约与服务</h4>
+          <div class="footer-links">
+            <a href="services.html">服务价格</a>
+            <a href="calendar.html">档期日历</a>
+            <a href="booking.html">在线预约</a>
+            <a href="my-bookings.html">我的预约</a>
+            <a href="favorites.html">收藏夹</a>
+            <a href="guide.html">新手指南</a>
+            <a href="reviews.html">用户评价</a>
+          </div>
+        </div>
+        <div>
+          <h4>全部页面</h4>
+          <div class="footer-sitemap">
+            <a href="index.html">首页</a><a href="artists.html">找妆娘</a><a href="styles.html">风格分类</a><a href="locations.html">地区推荐</a><a href="artist.html">妆娘详情</a><a href="portfolio.html">作品集</a><a href="services.html">服务价格</a><a href="calendar.html">档期日历</a><a href="booking.html">预约</a><a href="confirmation.html">预约确认</a><a href="my-bookings.html">我的预约</a><a href="favorites.html">收藏夹</a><a href="community.html">妆造社区</a><a href="reviews.html">用户评价</a><a href="guide.html">新手指南</a><a href="join.html">妆娘入驻</a><a href="dashboard.html">妆娘工作台</a><a href="about.html">关于我们</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 MAKEUP DATE · 深圳市南山区科苑路 8 号 讯美科技广场 3 栋 12F</span>
+        <div class="socials">
+          <a href="community.html" aria-label="小红书">小红书</a>
+          <a href="community.html" aria-label="抖音">抖音</a>
+          <a href="join.html" aria-label="邮件">邮件</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>
